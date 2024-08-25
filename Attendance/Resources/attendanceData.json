@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Conor Mason",
+        "isPresent": false,
+        "id": 1001
+    },
+    {
+        "name": "Ethan Feeser",
+        "isPresent": false,
+        "id": 1002
+    },
+    {
+        "name": "Jacob Schuetze",
+        "isPresent": false,
+        "id": 1003
+    },
+    {
+        "name": "Kai Liwanag",
+        "isPresent": false,
+        "id": 1004
+    },{
+        "name": "Nolan Connelly",
+        "isPresent": false,
+        "id": 1005
+    }
+]
