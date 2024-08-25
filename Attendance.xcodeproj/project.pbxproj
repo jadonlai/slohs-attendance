@@ -12,11 +12,9 @@
 		D216B8F12C782C3E00673CA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D216B8F02C782C3E00673CA4 /* Assets.xcassets */; };
 		D216B8F42C782C3E00673CA4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D216B8F32C782C3E00673CA4 /* Preview Assets.xcassets */; };
 		D216B9042C7830C700673CA4 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = D216B9032C7830C700673CA4 /* Student.swift */; };
-		D216B9082C7832E500673CA4 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D216B9072C7832E500673CA4 /* ModelData.swift */; };
-		D216B90D2C78337800673CA4 /* StudentRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D216B90C2C78337800673CA4 /* StudentRow.swift */; };
-		D216B90F2C78344800673CA4 /* StudentList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D216B90E2C78344800673CA4 /* StudentList.swift */; };
-		D25A25502C7A7F9E000A4792 /* attendanceData.json in Resources */ = {isa = PBXBuildFile; fileRef = D25A254F2C7A7F9E000A4792 /* attendanceData.json */; };
 		D2BD284D2C7A7D210008A789 /* HereButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BD284C2C7A7D210008A789 /* HereButton.swift */; };
+		D2F0447A2C7AD5D500510DA1 /* StudentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F044792C7AD5D500510DA1 /* StudentView.swift */; };
+		D2F0447E2C7ADC2D00510DA1 /* EditStudentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F0447D2C7ADC2D00510DA1 /* EditStudentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,11 +24,9 @@
 		D216B8F02C782C3E00673CA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D216B8F32C782C3E00673CA4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D216B9032C7830C700673CA4 /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
-		D216B9072C7832E500673CA4 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
-		D216B90C2C78337800673CA4 /* StudentRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentRow.swift; sourceTree = "<group>"; };
-		D216B90E2C78344800673CA4 /* StudentList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentList.swift; sourceTree = "<group>"; };
-		D25A254F2C7A7F9E000A4792 /* attendanceData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = attendanceData.json; sourceTree = "<group>"; };
 		D2BD284C2C7A7D210008A789 /* HereButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HereButton.swift; sourceTree = "<group>"; };
+		D2F044792C7AD5D500510DA1 /* StudentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentView.swift; sourceTree = "<group>"; };
+		D2F0447D2C7ADC2D00510DA1 /* EditStudentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditStudentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,7 +60,6 @@
 			isa = PBXGroup;
 			children = (
 				D216B90A2C78334200673CA4 /* Model */,
-				D216B9092C78333200673CA4 /* Resources */,
 				D216B8EC2C782C3E00673CA4 /* AttendanceApp.swift */,
 				D216B90B2C78335300673CA4 /* Views */,
 				D216B8F02C782C3E00673CA4 /* Assets.xcassets */,
@@ -81,19 +76,10 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		D216B9092C78333200673CA4 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				D25A254F2C7A7F9E000A4792 /* attendanceData.json */,
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
 		D216B90A2C78334200673CA4 /* Model */ = {
 			isa = PBXGroup;
 			children = (
 				D216B9032C7830C700673CA4 /* Student.swift */,
-				D216B9072C7832E500673CA4 /* ModelData.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -111,8 +97,8 @@
 		D216B9142C783BAE00673CA4 /* Students */ = {
 			isa = PBXGroup;
 			children = (
-				D216B90C2C78337800673CA4 /* StudentRow.swift */,
-				D216B90E2C78344800673CA4 /* StudentList.swift */,
+				D2F044792C7AD5D500510DA1 /* StudentView.swift */,
+				D2F0447D2C7ADC2D00510DA1 /* EditStudentView.swift */,
 			);
 			path = Students;
 			sourceTree = "<group>";
@@ -183,7 +169,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D25A25502C7A7F9E000A4792 /* attendanceData.json in Resources */,
 				D216B8F42C782C3E00673CA4 /* Preview Assets.xcassets in Resources */,
 				D216B8F12C782C3E00673CA4 /* Assets.xcassets in Resources */,
 			);
@@ -196,13 +181,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2F0447E2C7ADC2D00510DA1 /* EditStudentView.swift in Sources */,
 				D216B8EF2C782C3E00673CA4 /* ContentView.swift in Sources */,
 				D216B8ED2C782C3E00673CA4 /* AttendanceApp.swift in Sources */,
-				D216B90D2C78337800673CA4 /* StudentRow.swift in Sources */,
 				D216B9042C7830C700673CA4 /* Student.swift in Sources */,
+				D2F0447A2C7AD5D500510DA1 /* StudentView.swift in Sources */,
 				D2BD284D2C7A7D210008A789 /* HereButton.swift in Sources */,
-				D216B9082C7832E500673CA4 /* ModelData.swift in Sources */,
-				D216B90F2C78344800673CA4 /* StudentList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

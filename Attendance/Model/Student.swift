@@ -6,11 +6,16 @@
 //
 
 import Foundation
-import SwiftUI
-import CoreLocation
+import SwiftData
 
-struct Student: Hashable, Codable, Identifiable {
-    var id: Int
-    var name: String
+@Model class Student {
+    var firstName: String
+    var lastName: String
     var isPresent: Bool
+    
+    init(firstName: String = "", lastName: String = "", isPresent: Bool = false) {
+        self.firstName = firstName
+        self.lastName = lastName
+        self.isPresent = isPresent
+    }
 }
